@@ -1,5 +1,6 @@
 Example Voting App
 =========
+[![Build Status](http://192.168.122.104:8080/buildStatus/icon?job=job-02)](http://192.168.122.104:8080/job/job-02/)
 
 Getting started
 ---------------
