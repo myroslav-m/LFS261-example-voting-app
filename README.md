@@ -2,6 +2,7 @@ Example Voting App
 =========
 [![Build Status](http://192.168.122.104:8080/buildStatus/icon?job=job-02)](http://192.168.122.104:8080/job/job-02/)
 ^ jenkins status integration required jenkins to be accessible from github. We are fine to leave it broken for now
+this is one more testing line
 
 Getting started
 ---------------
