@@ -33,8 +33,9 @@ pipeline {
         }
 
 	stage('docker-package'){
-	    agent any
+#	    agent any
 	    steps{
+		node('built-in node') {
 		echo 'Packaging worker app with docker'
 			script{
 				docker.withRegistry('https://index.docker.io/v1/',
@@ -44,7 +45,7 @@ pipeline {
 				workerImage.push("latest")
 			}
 		}
-	    }
+	    }}
 	}
 
     }
