@@ -45,7 +45,7 @@ pipeline {
         }
         stage('package') {
 	  when{
-            branch 'master'
+//            branch 'master'
 	    changeset "**/worker/**"
 	  }
     	  agent {
@@ -67,7 +67,7 @@ pipeline {
 		agent any
 	  	when{
 	    		changeset "**/worker/**"
-	    		branch 'master'
+//	    		branch 'master'
 	  	}
 
 	    steps{
